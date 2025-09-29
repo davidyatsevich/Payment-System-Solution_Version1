@@ -35,22 +35,22 @@ Go to QT website and download QT5 or QT6 tools
 
 ### 5. Setup project
 - prepare .json configs in .vscode (c_cpp_properties.json, settings.json, tasks.json)
-- cmake -B build -DCMAKE_PREFIX_PATH=$HOME/<directory-to-qt5-or-qt6-tools>
+- cmake -B build -DCMAKE_PREFIX_PATH=$HOME/directory-to-qt5-or-qt6-tools
 - cmake -B build
 - cmake --build build
-- ./build/<build-executable-name>
+- ./build/build-executable-name
 
 
 
-Folder Structure
-root/
-├─.vscode/               # User-specific VSCode configs (do not push!)
-├─backend/               # C++ backend classes
-├─GUI/                   # QT framework tools called up
-├─CMakeLists.txt         # Instructions for Cmake build generator
-├─main.cpp               # Automates project build/run
-├─simulated_server.csv   # Temporary storage of data
-├─ README.md
+### Folder Structure
+- root/
+- ├─.vscode/               # User-specific VSCode configs (do not push!)
+- ├─backend/               # C++ backend classes
+- ├─GUI/                   # QT framework tools called up
+- ├─CMakeLists.txt         # Instructions for Cmake build generator
+- ├─main.cpp               # Automates project build/run
+- ├─simulated_server.csv   # Temporary storage of data
+- ├─ README.md
 
 
 
