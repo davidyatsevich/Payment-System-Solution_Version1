@@ -21,12 +21,12 @@
 Go to QT website and download QT5 or QT6 tools
 
 ### 2. Open in CLI (Terminal)
-brew install cmake
+- brew install cmake
 
 ### 3. Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-mkdir .vscode
+- git clone https://github.com/your-username/your-repo.git
+- cd your-repo
+- mkdir .vscode
 
 ### 4. Open in VSCode directory .vscode Prepare local JSON configs (user-specific)
  - c_cpp_properties.json
@@ -34,12 +34,11 @@ mkdir .vscode
  - tasks.json
 
 ### 5. Setup project
-create .vscode
-prepare .json configs (c_cpp_properties.json, settings.json, tasks.json)
-cmake -B build -DCMAKE_PREFIX_PATH=$HOME/<directory-to-qt5-or-qt6-tools>
-cmake -B build
-cmake --build build
-./build/<build-executable-name>
+- prepare .json configs in .vscode (c_cpp_properties.json, settings.json, tasks.json)
+- cmake -B build -DCMAKE_PREFIX_PATH=$HOME/<directory-to-qt5-or-qt6-tools>
+- cmake -B build
+- cmake --build build
+- ./build/<build-executable-name>
 
 
 
