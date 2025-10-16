@@ -4,7 +4,7 @@
 #include <string>      // Methods used => std::string
 #include <vector>      // Methods used => std::vector, push_back(), size()
 #include <memory>      // Methods used => std::shared_ptr, std::make_shared
-#include "Payment.hpp" // Methods used => Payment<T>::getAmount()
+#include "Payment.hpp" // Methods used => Payment::getAmount()
 
 class Invoice
 {
