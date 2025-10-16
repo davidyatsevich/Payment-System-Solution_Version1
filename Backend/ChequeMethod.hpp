@@ -1,7 +1,7 @@
 #ifndef CHEQUEMETHOD_HPP
 #define CHEQUEMETHOD_HPP
 
-#include "Payment.hpp" // Methods used => Payment<T>::Payment(), Payment<T>::getPaymentID(), Payment<T>::getAmount(), Payment<T>::getPaymentType() (overridden)
+#include "Payment.hpp" // Methods used => Payment::Payment(), Payment::getPaymentID(), Payment::getAmount(), Payment::getPaymentType() (overridden)
 #include <string>      // Methods used => std::string, constructor, copy
 
 class ChequeMethod : public Payment
